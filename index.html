@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satılır: ThinkPad X1 Carbon Gen 8</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #0f172a; 
+            color: #f1f5f9; 
+            overflow-x: hidden;
+        }
+
+        .thinkpad-red { color: #e11d48; }
+        .thinkpad-bg-red { background-color: #e11d48; }
+        
+        .glass-effect { 
+            background: rgba(30, 41, 59, 0.7); 
+            backdrop-filter: blur(10px); 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+        }
+
+        /* Giriş Animasiyaları */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes pulseRed {
+            0% { box-shadow: 0 0 0 0 rgba(225, 29, 72, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(225, 29, 72, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(225, 29, 72, 0); }
+        }
+
+        .animate-fade-up { animation: fadeInUp 0.8s ease-out forwards; opacity: 0; }
+        .animate-fade-in { animation: fadeIn 1.2s ease-out forwards; opacity: 0; }
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+
+        .red-dot-pulse {
+            width: 8px;
+            height: 8px;
+            background-color: #e11d48;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 2px;
+            animation: pulseRed 2s infinite;
+        }
+
+        .product-image { 
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); 
+            min-height: 200px;
+            background-color: #1e293b;
+            object-fit: cover;
+        }
+        
+        .product-image:hover { 
+            transform: scale(1.03) translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Naviqasiya -->
+    <nav class="sticky top-0 z-50 glass-effect animate-fade-in">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="text-xl font-bold tracking-tighter">
+                THINKPAD<span class="thinkpad-red">X1</span><span class="red-dot-pulse"></span>
+            </div>
+            <a href="#contact" class="thinkpad-bg-red px-5 py-2 rounded-full text-sm font-semibold hover:bg-rose-700 transition transform hover:scale-105">
+                İndi Al
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Bölməsi -->
+    <header class="py-12 md:py-24 px-4 max-w-6xl mx-auto text-center">
+        <div class="animate-fade-up">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
+                ThinkPad <span class="thinkpad-red">X1 Carbon</span>
+            </h1>
+        </div>
+        <div class="animate-fade-up delay-1">
+            <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
+                Professional iş üçün hazırlanmış Gen 8 modeli. Ultra-yüngül karbon korpus, dözümlülük və üstün performansın harmoniyası.
+            </p>
+        </div>
+        <div class="animate-fade-up delay-2">
+            <div class="inline-flex items-center space-x-2 bg-slate-800/80 px-6 py-3 rounded-2xl border border-slate-700 shadow-xl">
+                <span class="text-3xl font-bold text-white">600 AZN</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Şəkil Qalereyası -->
+    <section class="max-w-6xl mx-auto px-4 py-10">
+        <h2 class="text-2xl font-bold mb-8 flex items-center animate-fade-in delay-2">
+            <i class="fas fa-camera mr-3 thinkpad-red"></i> Real Şəkillər
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="rounded-3xl overflow-hidden glass-effect animate-fade-up delay-1">
+                <!-- Şəkil tapılmasa placeholder görünəcək -->
+                <img src="Gemini_Generated_Image_6csbwk6csbwk6csb.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x600/1e293b/f1f5f9?text=Cihazın+Ön+Görünüşü';" 
+                     alt="ThinkPad Ön Görünüş" class="w-full h-auto product-image">
+            </div>
+            <div class="rounded-3xl overflow-hidden glass-effect animate-fade-up delay-2">
+                <img src="Gemini_Generated_Image_4fih2t4fih2t4fih.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x600/1e293b/f1f5f9?text=Qapaq+Görünüşü';" 
+                     alt="ThinkPad Qapaq" class="w-full h-auto product-image">
+            </div>
+            <div class="rounded-3xl overflow-hidden glass-effect animate-fade-up delay-1">
+                <img src="Gemini_Generated_Image_2or7y22or7y22or7.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x600/1e293b/f1f5f9?text=Parametrlər+Ekranı';" 
+                     alt="ThinkPad Parametrlər" class="w-full h-auto product-image">
+            </div>
+            <div class="rounded-3xl overflow-hidden glass-effect animate-fade-up delay-2">
+                <img src="Gemini_Generated_Image_duvbtwduvbtwduvb.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x600/1e293b/f1f5f9?text=Alt+Qapaq+Görünüşü';" 
+                     alt="ThinkPad Arxa" class="w-full h-auto product-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Parametrlər Bölməsi -->
+    <section class="max-w-6xl mx-auto px-4 py-16">
+        <div class="glass-effect rounded-[2.5rem] p-8 md:p-16 relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-8 opacity-10">
+                <i class="fas fa-laptop text-9xl"></i>
+            </div>
+            
+            <h2 class="text-3xl font-bold mb-12 text-center">Texniki Göstəricilər</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                
+                <!-- Prosessor -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-blue-500/10 rounded-2xl text-blue-400 group-hover:bg-blue-500/20 transition">
+                        <i class="fas fa-microchip text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">Prosessor</h3>
+                        <p class="text-white text-lg">Intel® Core™ i5-10210U</p>
+                        <p class="text-sm text-slate-500">10-cu nəsil, 4.20 GHz-ə qədər</p>
+                    </div>
+                </div>
+
+                <!-- RAM -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-green-500/10 rounded-2xl text-green-400 group-hover:bg-green-500/20 transition">
+                        <i class="fas fa-memory text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">RAM</h3>
+                        <p class="text-white text-lg">8 GB LPDDR4</p>
+                        <p class="text-sm text-slate-500">Yüksək sürətli ddr4 yaddaş</p>
+                    </div>
+                </div>
+
+                <!-- SSD -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-yellow-500/10 rounded-2xl text-yellow-400 group-hover:bg-yellow-500/20 transition">
+                        <i class="fas fa-hdd text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">SSD</h3>
+                        <p class="text-white text-lg">256 GB NVMe</p>
+                        <p class="text-sm text-slate-500">Ultra-sürətli məlumat ötürülməsi</p>
+                    </div>
+                </div>
+
+                <!-- Ekran -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-purple-500/10 rounded-2xl text-purple-400 group-hover:bg-purple-500/20 transition">
+                        <i class="fas fa-desktop text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">Ekran</h3>
+                        <p class="text-white text-lg">14" FHD IPS</p>
+                        <p class="text-sm text-slate-500">Geniş baxış bucağı, parlamaz</p>
+                    </div>
+                </div>
+
+                <!-- Korpus -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-rose-500/10 rounded-2xl text-rose-400 group-hover:bg-rose-500/20 transition">
+                        <i class="fas fa-shield-alt text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">Material</h3>
+                        <p class="text-white text-lg">Karbon Lifli</p>
+                        <p class="text-sm text-slate-500">Maqnezium şassi ilə birlikdə</p>
+                    </div>
+                </div>
+
+                <!-- Çəki -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-teal-500/10 rounded-2xl text-teal-400 group-hover:bg-teal-500/20 transition">
+                        <i class="fas fa-weight-hanging text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">Çəki</h3>
+                        <p class="text-white text-lg">Cəmi 1.09 kq</p>
+                        <p class="text-sm text-slate-500">Maksimum daşınabilirlik</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Əlavə Məlumat -->
+    <section class="max-w-4xl mx-auto px-4 py-10">
+        <div class="bg-slate-800/40 border border-slate-700/50 rounded-3xl p-8 shadow-inner">
+            <h3 class="text-xl font-bold mb-6 flex items-center">
+                <i class="fas fa-info-circle mr-3 text-indigo-400"></i> Niyə bu noutbuk?
+            </h3>
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-300">
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Batareya əla saxlayır</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Original 65W Type-C adapter</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Çox təmiz vəziyyətdədir</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Barmaq izi skaneri mövcuddur</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Əlaqə Bölməsi -->
+    <section id="contact" class="max-w-6xl mx-auto px-4 py-20 text-center">
+        <div class="glass-effect rounded-[3rem] p-12 md:p-20 relative overflow-hidden group">
+            <div class="relative z-10">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Real alıcıya endirim var!</h2>
+                <p class="text-slate-400 text-lg mb-12 max-w-xl mx-auto">Noutbuku Bakı daxili istənilən yerdə yoxlayıb ala bilərsiniz.</p>
+                
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+                    <a href="https://wa.me/994997111415" target="_blank" class="w-full md:w-auto flex items-center justify-center bg-green-600 hover:bg-green-500 px-10 py-5 rounded-2xl font-bold transition transform hover:-translate-y-1 shadow-lg shadow-green-900/20">
+                        <i class="fab fa-whatsapp mr-3 text-2xl"></i> WhatsApp ilə Yaz
+                    </a>
+                    <a href="tel:+994997111415" class="w-full md:w-auto flex items-center justify-center bg-white text-slate-900 hover:bg-slate-100 px-10 py-5 rounded-2xl font-bold transition transform hover:-translate-y-1 shadow-lg">
+                        <i class="fas fa-phone-alt mr-3"></i> 099 711 14 15
+                    </a>
+                </div>
+            </div>
+            
+            <div class="absolute -top-24 -left-24 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl group-hover:bg-indigo-600/20 transition duration-1000"></div>
+            <div class="absolute -bottom-24 -right-24 w-80 h-80 bg-rose-600/10 rounded-full blur-3xl group-hover:bg-rose-600/20 transition duration-1000"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 text-center text-slate-600 text-sm border-t border-slate-800/50">
+        <p class="mb-2 uppercase tracking-widest font-semibold">ThinkPad X1 Carbon Gen 8</p>
+        <p>&copy; 2024 laptop.rustamoff.site | Bütün hüquqlar qorunur.</p>
+    </footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satılır: ThinkPad X1 Carbon Gen 8</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #0f172a; 
+            color: #f1f5f9; 
+            overflow-x: hidden;
+        }
+
+        .thinkpad-red { color: #e11d48; }
+        .thinkpad-bg-red { background-color: #e11d48; }
+        
+        .glass-effect { 
+            background: rgba(30, 41, 59, 0.7); 
+            backdrop-filter: blur(10px); 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+        }
+
+        /* Giriş Animasiyaları */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes pulseRed {
+            0% { box-shadow: 0 0 0 0 rgba(225, 29, 72, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(225, 29, 72, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(225, 29, 72, 0); }
+        }
+
+        .animate-fade-up { animation: fadeInUp 0.8s ease-out forwards; opacity: 0; }
+        .animate-fade-in { animation: fadeIn 1.2s ease-out forwards; opacity: 0; }
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+
+        .red-dot-pulse {
+            width: 8px;
+            height: 8px;
+            background-color: #e11d48;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 2px;
+            animation: pulseRed 2s infinite;
+        }
+
+        .product-image { 
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); 
+            min-height: 200px;
+            background-color: #1e293b;
+            object-fit: cover;
+        }
+        
+        .product-image:hover { 
+            transform: scale(1.03) translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Naviqasiya -->
+    <nav class="sticky top-0 z-50 glass-effect animate-fade-in">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="text-xl font-bold tracking-tighter">
+                THINKPAD<span class="thinkpad-red">X1</span><span class="red-dot-pulse"></span>
+            </div>
+            <a href="#contact" class="thinkpad-bg-red px-5 py-2 rounded-full text-sm font-semibold hover:bg-rose-700 transition transform hover:scale-105">
+                İndi Al
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Bölməsi -->
+    <header class="py-12 md:py-24 px-4 max-w-6xl mx-auto text-center">
+        <div class="animate-fade-up">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
+                ThinkPad <span class="thinkpad-red">X1 Carbon</span>
+            </h1>
+        </div>
+        <div class="animate-fade-up delay-1">
+            <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
+                Professional iş üçün hazırlanmış Gen 8 modeli. Ultra-yüngül karbon korpus, dözümlülük və üstün performansın harmoniyası.
+            </p>
+        </div>
+        <div class="animate-fade-up delay-2">
+            <div class="inline-flex items-center space-x-2 bg-slate-800/80 px-6 py-3 rounded-2xl border border-slate-700 shadow-xl">
+                <span class="text-3xl font-bold text-white">600 AZN</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Şəkil Qalereyası -->
+    <section class="max-w-6xl mx-auto px-4 py-10">
+        <h2 class="text-2xl font-bold mb-8 flex items-center animate-fade-in delay-2">
+            <i class="fas fa-camera mr-3 thinkpad-red"></i> Real Şəkillər
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="rounded-3xl overflow-hidden glass-effect animate-fade-up delay-1">
+                <!-- Şəkil tapılmasa placeholder görünəcək -->
+                <img src="Gemini_Generated_Image_6csbwk6csbwk6csb.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x600/1e293b/f1f5f9?text=Cihazın+Ön+Görünüşü';" 
+                     alt="ThinkPad Ön Görünüş" class="w-full h-auto product-image">
+            </div>
+            <div class="rounded-3xl overflow-hidden glass-effect animate-fade-up delay-2">
+                <img src="Gemini_Generated_Image_4fih2t4fih2t4fih.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x600/1e293b/f1f5f9?text=Qapaq+Görünüşü';" 
+                     alt="ThinkPad Qapaq" class="w-full h-auto product-image">
+            </div>
+            <div class="rounded-3xl overflow-hidden glass-effect animate-fade-up delay-1">
+                <img src="Gemini_Generated_Image_2or7y22or7y22or7.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x600/1e293b/f1f5f9?text=Parametrlər+Ekranı';" 
+                     alt="ThinkPad Parametrlər" class="w-full h-auto product-image">
+            </div>
+            <div class="rounded-3xl overflow-hidden glass-effect animate-fade-up delay-2">
+                <img src="Gemini_Generated_Image_duvbtwduvbtwduvb.jpg" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x600/1e293b/f1f5f9?text=Alt+Qapaq+Görünüşü';" 
+                     alt="ThinkPad Arxa" class="w-full h-auto product-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Parametrlər Bölməsi -->
+    <section class="max-w-6xl mx-auto px-4 py-16">
+        <div class="glass-effect rounded-[2.5rem] p-8 md:p-16 relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-8 opacity-10">
+                <i class="fas fa-laptop text-9xl"></i>
+            </div>
+            
+            <h2 class="text-3xl font-bold mb-12 text-center">Texniki Göstəricilər</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                
+                <!-- Prosessor -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-blue-500/10 rounded-2xl text-blue-400 group-hover:bg-blue-500/20 transition">
+                        <i class="fas fa-microchip text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">Prosessor</h3>
+                        <p class="text-white text-lg">Intel® Core™ i5-10210U</p>
+                        <p class="text-sm text-slate-500">10-cu nəsil, 4.20 GHz-ə qədər</p>
+                    </div>
+                </div>
+
+                <!-- RAM -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-green-500/10 rounded-2xl text-green-400 group-hover:bg-green-500/20 transition">
+                        <i class="fas fa-memory text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">RAM</h3>
+                        <p class="text-white text-lg">8 GB LPDDR4</p>
+                        <p class="text-sm text-slate-500">Yüksək sürətli ddr4 yaddaş</p>
+                    </div>
+                </div>
+
+                <!-- SSD -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-yellow-500/10 rounded-2xl text-yellow-400 group-hover:bg-yellow-500/20 transition">
+                        <i class="fas fa-hdd text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">SSD</h3>
+                        <p class="text-white text-lg">256 GB NVMe</p>
+                        <p class="text-sm text-slate-500">Ultra-sürətli məlumat ötürülməsi</p>
+                    </div>
+                </div>
+
+                <!-- Ekran -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-purple-500/10 rounded-2xl text-purple-400 group-hover:bg-purple-500/20 transition">
+                        <i class="fas fa-desktop text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">Ekran</h3>
+                        <p class="text-white text-lg">14" FHD IPS</p>
+                        <p class="text-sm text-slate-500">Geniş baxış bucağı, parlamaz</p>
+                    </div>
+                </div>
+
+                <!-- Korpus -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-rose-500/10 rounded-2xl text-rose-400 group-hover:bg-rose-500/20 transition">
+                        <i class="fas fa-shield-alt text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">Material</h3>
+                        <p class="text-white text-lg">Karbon Lifli</p>
+                        <p class="text-sm text-slate-500">Maqnezium şassi ilə birlikdə</p>
+                    </div>
+                </div>
+
+                <!-- Çəki -->
+                <div class="flex items-start space-x-5 group">
+                    <div class="p-4 bg-teal-500/10 rounded-2xl text-teal-400 group-hover:bg-teal-500/20 transition">
+                        <i class="fas fa-weight-hanging text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-slate-300">Çəki</h3>
+                        <p class="text-white text-lg">Cəmi 1.09 kq</p>
+                        <p class="text-sm text-slate-500">Maksimum daşınabilirlik</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Əlavə Məlumat -->
+    <section class="max-w-4xl mx-auto px-4 py-10">
+        <div class="bg-slate-800/40 border border-slate-700/50 rounded-3xl p-8 shadow-inner">
+            <h3 class="text-xl font-bold mb-6 flex items-center">
+                <i class="fas fa-info-circle mr-3 text-indigo-400"></i> Niyə bu noutbuk?
+            </h3>
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-300">
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Batareya əla saxlayır</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Original 65W Type-C adapter</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Çox təmiz vəziyyətdədir</li>
+                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Barmaq izi skaneri mövcuddur</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Əlaqə Bölməsi -->
+    <section id="contact" class="max-w-6xl mx-auto px-4 py-20 text-center">
+        <div class="glass-effect rounded-[3rem] p-12 md:p-20 relative overflow-hidden group">
+            <div class="relative z-10">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Real alıcıya endirim var!</h2>
+                <p class="text-slate-400 text-lg mb-12 max-w-xl mx-auto">Noutbuku Bakı daxili istənilən yerdə yoxlayıb ala bilərsiniz.</p>
+                
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+                    <a href="https://wa.me/994997111415" target="_blank" class="w-full md:w-auto flex items-center justify-center bg-green-600 hover:bg-green-500 px-10 py-5 rounded-2xl font-bold transition transform hover:-translate-y-1 shadow-lg shadow-green-900/20">
+                        <i class="fab fa-whatsapp mr-3 text-2xl"></i> WhatsApp ilə Yaz
+                    </a>
+                    <a href="tel:+994997111415" class="w-full md:w-auto flex items-center justify-center bg-white text-slate-900 hover:bg-slate-100 px-10 py-5 rounded-2xl font-bold transition transform hover:-translate-y-1 shadow-lg">
+                        <i class="fas fa-phone-alt mr-3"></i> 099 711 14 15
+                    </a>
+                </div>
+            </div>
+            
+            <div class="absolute -top-24 -left-24 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl group-hover:bg-indigo-600/20 transition duration-1000"></div>
+            <div class="absolute -bottom-24 -right-24 w-80 h-80 bg-rose-600/10 rounded-full blur-3xl group-hover:bg-rose-600/20 transition duration-1000"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 text-center text-slate-600 text-sm border-t border-slate-800/50">
+        <p class="mb-2 uppercase tracking-widest font-semibold">ThinkPad X1 Carbon Gen 8</p>
+        <p>&copy; 2024 laptop.rustamoff.site | Bütün hüquqlar qorunur.</p>
+    </footer>
+
+</body>
+</html>
